@@ -34,11 +34,6 @@ public class Rectangle{
     
     /**
      * Create a new rectangle with the given values
-     * @param heightGiven is the height of the rectangle
-     * @param widthGiven is the width of the rectangle
-     * @param xPositionGiven is the Horizontal position
-     * @param yPositionGiven is the Vertical position
-     * @param colorGiven is the color of the rectangle
      */
     public Rectangle(int heightGiven, int widthGiven, int xPositionGiven, 
     int yPositionGiven,String colorGiven){
@@ -223,17 +218,16 @@ public class Rectangle{
     }
     
     /**
-     * Getting method for xPosition
+     * 
      */
     public int getxPosition(){
         return xPosition;
     }
     
     /**
-     * Getting method for yPosition
+     * 
      */
     public int getyPosition(){
         return yPosition;
     }
 }
-
